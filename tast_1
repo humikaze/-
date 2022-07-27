@@ -1,0 +1,24 @@
+#include <stdio.h>//包含一个文件叫<>中的       
+standard input output .h头文件 下文打印函数在此之内int main()//主函数，入口，有且仅有一个 int是整形          //int在main前表示函数调用后返回一个整形值
+{	
+printf("hello world\n");	
+printf("hello world\n");//print-print function 打印函数，调用现成函数运行	
+printf("hello world\n");//在屏幕上输入helloworld	
+printf("hello world\n");//中间表示完成的任务	
+printf("hello world\n");//\n表示输出后转到下一行	
+char ch = 'A';//将A放入名为ch的内存中	
+printf("%c\n",ch);//%c对应打印字符格式的数字 显示有ch中取出的数据 表示以字符的形式取出ch数据加以打印函数处理	
+int age = '20';//将20放入名为age的内存中	
+printf("%d\n", age);//%d十进制整数字	
+float f = 5.000000;	
+printf("%f\n", f);	
+double d = 3.14;	
+printf("%f\n", d);	
+printf("%d\n", sizeof(char ));//显示char对应大小 size of。。。各个数据类型同 数字表示字节大小	
+printf("%d\n", sizeof(short));	
+printf("%d\n", sizeof(int));	
+printf("%d\n", sizeof(long));	
+printf("%d\n", sizeof(long long));	
+printf("%d\n", sizeof(float));	
+printf("%d\n", sizeof(double));	
+return 0;//返回0}
